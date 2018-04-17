@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ITSDWebImage"
-  s.version      = "0.0.3"
+  s.version      = "0.0.2"
   s.summary      = "A little change of SDWebImage."
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "ImageIO"
+  s.framework  = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -129,7 +129,6 @@ Pod::Spec.new do |s|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
-  s.pod_target_xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SD_WEBP=1'}
 
   # s.requires_arc = true
 
